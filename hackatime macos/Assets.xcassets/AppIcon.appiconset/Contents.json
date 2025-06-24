@@ -31,12 +31,13 @@
       "size" : "128x128"
     },
     {
+      "filename" : "AppIcon_256x256x32.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "256x256"
     },
     {
-      "filename" : "icon-512-maskable.png",
+      "filename" : "AppIcon_512x512x32.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "256x256"
@@ -47,6 +48,7 @@
       "size" : "512x512"
     },
     {
+      "filename" : "AppIcon_1024x1024x32.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "512x512"

@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A7103BEE2E0AA8EF006A0748 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7103BD42E0AA8ED006A0748 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7103BDB2E0AA8ED006A0748;
+			remoteInfo = "hackatime macos";
+		};
+		A7103BF82E0AA8EF006A0748 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7103BD42E0AA8ED006A0748 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7103BDB2E0AA8ED006A0748;
+			remoteInfo = "hackatime macos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7103BDC2E0AA8ED006A0748 /* hackatime macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hackatime macos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7103BED2E0AA8EF006A0748 /* hackatime macosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hackatime macosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7103BF72E0AA8EF006A0748 /* hackatime macosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hackatime macosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A7103BDE2E0AA8ED006A0748 /* hackatime macos */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "hackatime macos";
+			sourceTree = "<group>";
+		};
+		A7103BF02E0AA8EF006A0748 /* hackatime macosTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "hackatime macosTests";
+			sourceTree = "<group>";
+		};
+		A7103BFA2E0AA8EF006A0748 /* hackatime macosUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "hackatime macosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7103BD92E0AA8ED006A0748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7103BEA2E0AA8EF006A0748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7103BF42E0AA8EF006A0748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7103BD32E0AA8ED006A0748 = {
+			isa = PBXGroup;
+			children = (
+				A7103BDE2E0AA8ED006A0748 /* hackatime macos */,
+				A7103BF02E0AA8EF006A0748 /* hackatime macosTests */,
+				A7103BFA2E0AA8EF006A0748 /* hackatime macosUITests */,
+				A7103BDD2E0AA8ED006A0748 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7103BDD2E0AA8ED006A0748 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7103BDC2E0AA8ED006A0748 /* hackatime macos.app */,
+				A7103BED2E0AA8EF006A0748 /* hackatime macosTests.xctest */,
+				A7103BF72E0AA8EF006A0748 /* hackatime macosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7103BDB2E0AA8ED006A0748 /* hackatime macos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7103C012E0AA8EF006A0748 /* Build configuration list for PBXNativeTarget "hackatime macos" */;
+			buildPhases = (
+				A7103BD82E0AA8ED006A0748 /* Sources */,
+				A7103BD92E0AA8ED006A0748 /* Frameworks */,
+				A7103BDA2E0AA8ED006A0748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A7103BDE2E0AA8ED006A0748 /* hackatime macos */,
+			);
+			name = "hackatime macos";
+			packageProductDependencies = (
+			);
+			productName = "hackatime macos";
+			productReference = A7103BDC2E0AA8ED006A0748 /* hackatime macos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7103BEC2E0AA8EF006A0748 /* hackatime macosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7103C042E0AA8EF006A0748 /* Build configuration list for PBXNativeTarget "hackatime macosTests" */;
+			buildPhases = (
+				A7103BE92E0AA8EF006A0748 /* Sources */,
+				A7103BEA2E0AA8EF006A0748 /* Frameworks */,
+				A7103BEB2E0AA8EF006A0748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7103BEF2E0AA8EF006A0748 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A7103BF02E0AA8EF006A0748 /* hackatime macosTests */,
+			);
+			name = "hackatime macosTests";
+			packageProductDependencies = (
+			);
+			productName = "hackatime macosTests";
+			productReference = A7103BED2E0AA8EF006A0748 /* hackatime macosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7103BF62E0AA8EF006A0748 /* hackatime macosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7103C072E0AA8EF006A0748 /* Build configuration list for PBXNativeTarget "hackatime macosUITests" */;
+			buildPhases = (
+				A7103BF32E0AA8EF006A0748 /* Sources */,
+				A7103BF42E0AA8EF006A0748 /* Frameworks */,
+				A7103BF52E0AA8EF006A0748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7103BF92E0AA8EF006A0748 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A7103BFA2E0AA8EF006A0748 /* hackatime macosUITests */,
+			);
+			name = "hackatime macosUITests";
+			packageProductDependencies = (
+			);
+			productName = "hackatime macosUITests";
+			productReference = A7103BF72E0AA8EF006A0748 /* hackatime macosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7103BD42E0AA8ED006A0748 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A7103BDB2E0AA8ED006A0748 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A7103BEC2E0AA8EF006A0748 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A7103BDB2E0AA8ED006A0748;
+					};
+					A7103BF62E0AA8EF006A0748 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A7103BDB2E0AA8ED006A0748;
+					};
+				};
+			};
+			buildConfigurationList = A7103BD72E0AA8ED006A0748 /* Build configuration list for PBXProject "hackatime macos" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7103BD32E0AA8ED006A0748;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A7103BDD2E0AA8ED006A0748 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7103BDB2E0AA8ED006A0748 /* hackatime macos */,
+				A7103BEC2E0AA8EF006A0748 /* hackatime macosTests */,
+				A7103BF62E0AA8EF006A0748 /* hackatime macosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7103BDA2E0AA8ED006A0748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7103BEB2E0AA8EF006A0748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7103BF52E0AA8EF006A0748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7103BD82E0AA8ED006A0748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7103BE92E0AA8EF006A0748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7103BF32E0AA8EF006A0748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7103BEF2E0AA8EF006A0748 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7103BDB2E0AA8ED006A0748 /* hackatime macos */;
+			targetProxy = A7103BEE2E0AA8EF006A0748 /* PBXContainerItemProxy */;
+		};
+		A7103BF92E0AA8EF006A0748 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7103BDB2E0AA8ED006A0748 /* hackatime macos */;
+			targetProxy = A7103BF82E0AA8EF006A0748 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A7103BFF2E0AA8EF006A0748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7103C002E0AA8EF006A0748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A7103C022E0AA8EF006A0748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "hackatime macos/hackatime_macos.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hackatime macos/Preview Content\"";
+				DEVELOPMENT_TEAM = P6PV2R9443;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hackclub.hackatime-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A7103C032E0AA8EF006A0748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "hackatime macos/hackatime_macos.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hackatime macos/Preview Content\"";
+				DEVELOPMENT_TEAM = P6PV2R9443;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hackclub.hackatime-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A7103C052E0AA8EF006A0748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P6PV2R9443;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hackclub.hackatime-macosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackatime macos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hackatime macos";
+			};
+			name = Debug;
+		};
+		A7103C062E0AA8EF006A0748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P6PV2R9443;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hackclub.hackatime-macosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackatime macos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hackatime macos";
+			};
+			name = Release;
+		};
+		A7103C082E0AA8EF006A0748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P6PV2R9443;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hackclub.hackatime-macosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "hackatime macos";
+			};
+			name = Debug;
+		};
+		A7103C092E0AA8EF006A0748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P6PV2R9443;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hackclub.hackatime-macosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "hackatime macos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7103BD72E0AA8ED006A0748 /* Build configuration list for PBXProject "hackatime macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7103BFF2E0AA8EF006A0748 /* Debug */,
+				A7103C002E0AA8EF006A0748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7103C012E0AA8EF006A0748 /* Build configuration list for PBXNativeTarget "hackatime macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7103C022E0AA8EF006A0748 /* Debug */,
+				A7103C032E0AA8EF006A0748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7103C042E0AA8EF006A0748 /* Build configuration list for PBXNativeTarget "hackatime macosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7103C052E0AA8EF006A0748 /* Debug */,
+				A7103C062E0AA8EF006A0748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7103C072E0AA8EF006A0748 /* Build configuration list for PBXNativeTarget "hackatime macosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7103C082E0AA8EF006A0748 /* Debug */,
+				A7103C092E0AA8EF006A0748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7103BD42E0AA8ED006A0748 /* Project object */;
+}

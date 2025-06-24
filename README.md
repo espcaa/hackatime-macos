@@ -1,7 +1,7 @@
 <img width="116" alt="image" src="https://github.com/user-attachments/assets/79406f8c-3d38-4fa3-a60f-e57c3b023033" />
 
 
-# MacOS Wakatime
+# Hackatime macos
 
 A simpe swift ui app to show your hackatime directly on your menu bar
 

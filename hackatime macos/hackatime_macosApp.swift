@@ -7,13 +7,26 @@
 
 import SwiftUI
 
+import SwiftUI
+
 @main
 struct MenuBarApp: App {
-    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
-    
+    @StateObject private var timeFetcher = TimeFetcher()
+
     var body: some Scene {
+        MenuBarExtra {
+            BarView()
+                .environmentObject(timeFetcher)
+        } label: {
+            HStack {
+                Image(systemName: "clock.fill")
+                Text(timeFetcher.currentTime)
+            }
+        }
         Settings {
-            EmptyView() // We don't need any window
+            SettingsView()
         }
     }
 }
+
+

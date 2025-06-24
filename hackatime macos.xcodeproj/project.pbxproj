@@ -35,16 +35,6 @@
 			path = "hackatime macos";
 			sourceTree = "<group>";
 		};
-		A7103BF02E0AA8EF006A0748 /* hackatime macosTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "hackatime macosTests";
-			sourceTree = "<group>";
-		};
-		A7103BFA2E0AA8EF006A0748 /* hackatime macosUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "hackatime macosUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				A7103BDE2E0AA8ED006A0748 /* hackatime macos */,
-				A7103BF02E0AA8EF006A0748 /* hackatime macosTests */,
-				A7103BFA2E0AA8EF006A0748 /* hackatime macosUITests */,
 				A7103BDD2E0AA8ED006A0748 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				A7103BEF2E0AA8EF006A0748 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				A7103BF02E0AA8EF006A0748 /* hackatime macosTests */,
-			);
 			name = "hackatime macosTests";
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				A7103BF92E0AA8EF006A0748 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				A7103BFA2E0AA8EF006A0748 /* hackatime macosUITests */,
 			);
 			name = "hackatime macosUITests";
 			packageProductDependencies = (

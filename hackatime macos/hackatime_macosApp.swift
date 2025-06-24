@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct hackatime_macosApp: App {
+struct MenuBarApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        Settings {
+            EmptyView() // We don't need any window
         }
     }
 }
